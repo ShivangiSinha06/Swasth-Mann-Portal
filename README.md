@@ -23,12 +23,6 @@ The Swasth Mann Portal is a web-based resource hub designed to provide students 
 
 ## Getting Started
 
-**Accessing the Portal:**
-
-The Swasth Mann Portal is currently hosted on GitHub Pages and can be accessed at:
-
-[https://shivangisinha06.github.io/Swasth-Mann-Portal/](https://shivangisinha06.github.io/Swasth-Mann-Portal/)
-
 **Local Development (For Developers):**
 
 If you want to run the portal locally for development or testing:
