@@ -6,6 +6,13 @@ body {
     background-color: #f8f8f8;
     color: #333;
     overflow-x: hidden; /* Prevent horizontal scroll */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling if content exceeds viewport */
+}
+
+html {
+    height: 100%;
+    overflow: visible;
 }
 
 /* Header Styles */
@@ -22,11 +29,11 @@ header h1 {
     margin: 1rem;
 }
 
-/* Navigation Styles */
+/* Navigation Styles  */
 nav {
     background-color: #457b9d;
     padding: 0.5rem 0;
-    width: 100%; /* Make sure nav takes full width */
+    width: 100%;
     box-sizing: border-box;
 }
 

@@ -78,18 +78,37 @@
             <a href="#dummy-message" class="dummy-link">Share Your Experience</a>
         </section>
 
-        <p class="disclaimer"><strong>Disclaimer:</strong> This portal is a personal project.  All links are non-functional placeholders and are intended for illustrative purposes only. This information is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified mental health professional for any questions about your mental health.</p>
-
-        <section id="dummy-message" class="dummy-message">
-            <h2>This is a Dummy Project</h2>
-            <p>The links on this page are not functional. This is for demonstration purposes only.</p>
-            <a href="#">Back to Top</a>
-        </section>
+        <p class="disclaimer"><strong>Disclaimer:</strong> This portal is a personal project. All links are non-functional placeholders for illustrative purposes only. This information is not a substitute for professional advice. Always seek the advice of a qualified mental health professional.</p>
 
     </main>
 
     <footer>
         <p>© 2025 Swasth Mann Portal</p>
     </footer>
+
+    <div id="dummy-message" class="dummy-message">
+        <h2>This is a Dummy Project</h2>
+        <p>The links on this page are not functional. This is for demonstration purposes only.</p>
+        <button id="close-dummy-message">Close</button>
+    </div>
+
+    <script>
+          document.addEventListener('DOMContentLoaded', function() {
+        const dummyLinks = document.querySelectorAll('.dummy-link');
+        const dummyMessage = document.getElementById('dummy-message');
+        const closeDummyMessage = document.getElementById('close-dummy-message');
+
+        dummyLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent the link from navigating
+                dummyMessage.style.display = 'block'; // Show the message
+            });
+        });
+
+        closeDummyMessage.addEventListener('click', function() {
+            dummyMessage.style.display = 'none'; // Hide the message
+        });
+    });
+    </script>
 </body>
 </html>

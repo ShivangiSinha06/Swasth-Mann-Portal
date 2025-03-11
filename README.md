@@ -1,21 +1,27 @@
-# Swasth Mann Portal - Mental Health Resource Hub
+# Swasth Mann Portal - Mental Health Resource Hub (Demonstration Project)
 
 ## Overview
 
-The Swasth Mann Portal is a web-based resource hub providing a curated list of mental health resources for students in India. This project was created as a personal initiative to explore web development and learn more about providing accessible mental health support. It is a **demonstration project** only, and **none of the external links are functional.**
+The Swasth Mann Portal is a web-based resource hub intended to showcase a potential design for a mental health resource portal aimed at students in India. This project was created as a personal initiative to practice web development skills and explore the layout and content of a mental health resource site. **It is important to note that this project is a non-functional demonstration.**
 
 **Key Features:**
 
-*   Curated list of crisis resources, therapy & counseling options, self-help resources, and support groups.
+*   Structured layout with sections for Crisis Resources, Therapy & Counseling, Self-Help Resources, and Support Groups.
 *   Responsive design for viewing on various devices.
-*   Demonstration of basic HTML and CSS skills.
+*   Demonstrates basic HTML and CSS skills.
+*   JavaScript implementation for displaying a modal message when dummy links are clicked.
 
-**Important Note:** This project is for demonstration purposes only. All external links are non-functional placeholders. This information is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified mental health professional for any questions about your mental health.
+**Important Notes:**
+
+*   **This project is for demonstration purposes only.** All links are non-functional placeholders.
+*   The purpose of this project is to showcase website structure and design, and *not* to provide actual mental health resources.
+*   This information is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified mental health professional for any questions about your mental health.
 
 ## Technologies Used
 
 *   HTML
 *   CSS
+*   JavaScript 
 
 ## Accessing the Portal
 
@@ -23,16 +29,22 @@ The Swasth Mann Portal can be accessed at:
 
 [https://shivangisinha06.github.io/Swasth-Mann-Portal/](https://shivangisinha06.github.io/Swasth-Mann-Portal/)
 
+## Functionality
+
+Clicking on the links within the listed resources will trigger a message saying "This is a dummy project. The links on this page are not functional. This is for demonstration purposes only."
+
 ## Development Notes
 
 This project was built to:
 
-*   Practice HTML and CSS skills.
+*   Practice HTML, CSS, and JavaScript skills.
 *   Explore responsive web design principles.
-*   Demonstrate the creation of a simple resource hub.
+*   Demonstrate the creation of a website with a structured layout.
 
 ## Future Enhancements (Potential Ideas)
 
-*   Implement JavaScript-based search functionality.
-*   Explore dynamic content loading.
-*   Refine the UI/UX design.
+*   Implementing a database for storing and managing resources.
+*   Developing a user authentication system.
+*   Adding a fully functional search feature.
+*   Incorporating more advanced UI/UX design principles.
+*   Implementing a system for verifying and updating resource information.
